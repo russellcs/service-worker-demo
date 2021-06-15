@@ -1,0 +1,44 @@
+body {
+  background-color: darkcyan;
+  color: white;
+  padding: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  color: black;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.cats {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cats li {
+  margin: 15px;
+}
+
+/* .posts {
+} */
+.install {
+  display: none;
+}
+
+.install.show {
+  display: block;
+}
+
+@media all and (display-mode: standalone) {
+  body {
+    background-color: yellow;
+  }
+}
